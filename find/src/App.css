@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+*{
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background: #000000;
+  color: white;
+}
+.App {
+  text-align: center;
+  width: 1200px;
+  margin: 10px auto;
+  background: linear-gradient(to right, #000000, #434343);
+  padding: 20px;
+}
+h1{
+  font-family: "Rubik Mono One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form {
+  display: inline-block;
+}
+form div{
+  margin:10px;
+}
+form label {
+  display: inline-block;
+  width: 100px;
+}
+.formDiv {
+  display: flex;
+}
+select {
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* hr{
+  width: 75%;
+} */
+.tableDiv{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+table,th,td,tr {
+  max-width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th {
+  padding: 12px;
+}
+button {
+  background: linear-gradient(to right, #000000, #434343);
+  border: 0px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
